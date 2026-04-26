@@ -7,4 +7,10 @@ def extract_text_from_pdf(pdf_path):
     for img in images:
         text += pytesseract.image_to_string(img)
     return text
+def validate_entities(entities):
+    validated = []
+
+    for ent in entities:
+        label = ent['label']
+        value = ent['text']
 
