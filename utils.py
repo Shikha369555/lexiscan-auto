@@ -23,3 +23,4 @@ def validate_entities(entities):
 
         else:
             validated.append(ent)
+    return validated
