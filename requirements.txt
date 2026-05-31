@@ -1,0 +1,7 @@
+flask
+streamlit
+spacy
+pytesseract
+pdf2image
+Pillow
+requests
